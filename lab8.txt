@@ -1,0 +1,13 @@
+Names: 
+Curtis Huebner
+Koosha Rezaiezadeh
+
+GitHub Repositories:
+//ADD yours
+https://github.com/CPEN-221/2015-L1F-kooshar
+
+How to obtain the postfix arithmetic expression:
+To change into postfix evaluation one should just change the order of reading
+from the scanner. In a postfix expression the first Token is the leftExpr,
+the second Token is the rightExpr, and the third Token is the operation. The 
+rest of the codes need not be changed.
