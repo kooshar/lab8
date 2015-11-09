@@ -1,10 +1,10 @@
 Names: 
-Curtis Huebner
+Curtis Huebner-36039148
 Koosha Rezaiezadeh-15915144
 
 GitHub Repositories:
-//ADD yours
 https://github.com/CPEN-221/2015-L1F-kooshar
+https://github.com/CPEN-221/2015-L1E-CurtisHuebner
 
 How to obtain the postfix arithmetic expression:
 To change into postfix evaluation one should just change the order of reading
