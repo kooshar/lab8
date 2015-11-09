@@ -16,7 +16,7 @@ public class DivideNode extends Node {
         super(leftNode, rightNode);
         
         if(rightNode.evaluate().compareTo(BigDecimal.ZERO)==0){
-            throw new MalformedExpressionException("division byzero not supported");
+            throw new MalformedExpressionException("division by zero not supported");
         }
     }
 

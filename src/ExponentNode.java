@@ -17,7 +17,7 @@ public class ExponentNode extends Node {
         final double ACCURACY=0.000001;
         
         if(Math.abs(rightNode.evaluate().doubleValue()-rightNode.evaluate().intValue())>ACCURACY){
-            throw new MalformedExpressionException("division byzero not supported");
+            throw new MalformedExpressionException("Non-integer exponentiation not supported");
         }
     }
 
