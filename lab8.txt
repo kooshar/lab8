@@ -11,3 +11,14 @@ To change into postfix evaluation one should just change the order of reading
 from the scanner. In a postfix expression the first Token is the leftExpr,
 the second Token is the rightExpr, and the third Token is the operation. The 
 rest of the codes need not be changed.
+
+To print out out the arithmetic expression in postfix notation,
+simply create the given string described by the folowing recursive pseudo-code
+    -find the postfix string representation of the right node tree
+        -call it a
+    -find the postfix string representation of the left node tree
+        -call it b
+    -find the string representation of the node
+        -call it c
+    -print out the string a + b + c 
+
